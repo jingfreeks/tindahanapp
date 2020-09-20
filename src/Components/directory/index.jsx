@@ -55,7 +55,7 @@ class  Directory extends Component{
             <div className='directory-menu'>
                 {sections.map(({title,subTitle,id,imageUrl,size})=>{
                     return(
-                        <MenuItem key={id} title={title} subTitle={subTitle} imageUrl={imageUrl} size={size}/>
+                        <MenuItem key={id} title={title.toUpperCase()} subTitle={subTitle} imageUrl={imageUrl} size={size}/>
                     )
                 })
                 }
