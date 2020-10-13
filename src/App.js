@@ -9,6 +9,7 @@ import SignInSignUpPage from './Page/Sign-in-Sign-up';
 import Header from './Components/header';
 import {auth,createUserProfileDocument} from './firebase/firebase.utils';
 import { setCurrentUser } from  './redux/user/actions';
+
 class App extends Component {
   
   unsubscribeFormAuth=null;
